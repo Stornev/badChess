@@ -276,6 +276,6 @@ class Chessgame:
 
         return enemies
         
-            
-game = Chessgame(Chessboard())
-game.gameLoop()
+if __name__ == "__main__":     
+    game = Chessgame(Chessboard())
+    game.gameLoop()
